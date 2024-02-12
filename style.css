@@ -1,0 +1,43 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+body p{
+    font-family: "Open Sans", "sans-serif";
+    font-size: 15px;
+}
+main img + button{
+    border: 1px solid hsl(322, 100%, 66%);
+    font-size: 12px;
+}
+main img + button:hover{
+    border-color: pink;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "poppins";
+}
+.pale-blue{
+    background-color: hsl(207, 100%, 98%);
+}
+.content img{
+    padding: 4px;
+}
+
+.dark-cyan{
+    background-color: hsl(192, 100%, 9%);
+}
+
+input:focus{
+    border: 1px solid red;
+}
+footer button:focus + div .note{
+    display: inline-block;
+    font-size: 12px;
+}
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+    padding-bottom: 30px;
+}
+.attribution a {
+    color:  hsl(322, 100%, 66%);
+}
